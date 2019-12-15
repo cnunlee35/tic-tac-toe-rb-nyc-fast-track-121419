@@ -1,3 +1,5 @@
+def
+puts "Welcome to Tic Tac Toe!"
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -18,7 +20,9 @@ WIN_COMBINATIONS = [
       symbol_1 = board_array[first_index]
       symbol_2 = board_array[second_index]
       symbol_3 = board_array[third_index]
-      if symbol_1 == symbol_2 && symbol_2 == symbol_3
+      if symbol_1 == symbol_2 && symbol_2 == symbol_3 && symbol_1 != " "
+        return combo_arr
       end
     end
-  end
+    return false 
+end
