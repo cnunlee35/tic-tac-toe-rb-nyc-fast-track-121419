@@ -44,3 +44,10 @@ def draw?(board_array)
   end
 end
 
+def over?(board_array)
+  if won?(board_array) || draw?(board_array)
+    return true
+  else
+    return false
+  end  
+end 
