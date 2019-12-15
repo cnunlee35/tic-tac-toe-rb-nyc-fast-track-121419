@@ -1,5 +1,3 @@
-def
-puts "Welcome to Tic Tac Toe!"
 WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -10,6 +8,7 @@ WIN_COMBINATIONS = [
   [1,4,7],
   [2,5,8]
   ]
+  puts "Welcome to Tic Tac Toe!"
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def won?(board_array)
     WIN_COMBINATIONS.each do |combo_arr|
