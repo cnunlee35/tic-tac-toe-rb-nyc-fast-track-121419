@@ -26,7 +26,7 @@ WIN_COMBINATIONS = [
     return false 
 end
 
-puts won?("X", " ", " ", "X", " ", " ", "X", " ", " ")
+
 
 def full?(board_array)
   board_array.each do |numbers|
