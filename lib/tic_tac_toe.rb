@@ -26,7 +26,7 @@ WIN_COMBINATIONS = [
     end
     return false 
   end
-end
+
 
 def full?(board_array)
   board_array.each do |numbers|
