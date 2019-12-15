@@ -27,3 +27,11 @@ WIN_COMBINATIONS = [
 end
 
 puts won?("X", " ", " ", "X", " ", " ", "X", " ", " ")
+
+def full?(board_array)
+  board_array.each do |numbers|
+    if numbers == " "
+      return false 
+    end
+  
+end 
