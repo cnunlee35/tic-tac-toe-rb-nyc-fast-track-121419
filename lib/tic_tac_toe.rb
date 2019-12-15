@@ -8,6 +8,7 @@ WIN_COMBINATIONS = [
   [1,4,7],
   [2,5,8]
   ]
+ def 
   puts "Welcome to Tic Tac Toe!"
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def won?(board_array)
@@ -25,7 +26,7 @@ WIN_COMBINATIONS = [
     end
     return false 
 
-
+end
 
 def full?(board_array)
   board_array.each do |numbers|
@@ -42,3 +43,4 @@ def draw?(board_array)
    return false
   end
 end
+
