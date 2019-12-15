@@ -25,7 +25,7 @@ WIN_COMBINATIONS = [
       end
     end
     return false 
-
+  end
 end
 
 def full?(board_array)
@@ -51,3 +51,9 @@ def over?(board_array)
     return false
   end  
 end 
+
+def winner(board)
+  if won?(board)
+    array_winner = won?(board)
+ end 
+end
