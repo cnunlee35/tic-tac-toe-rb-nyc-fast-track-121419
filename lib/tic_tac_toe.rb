@@ -9,7 +9,6 @@ WIN_COMBINATIONS = [
   [2,5,8]
   ]
  def 
-  puts "Welcome to Tic Tac Toe!"
   
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def won?(board_array)
