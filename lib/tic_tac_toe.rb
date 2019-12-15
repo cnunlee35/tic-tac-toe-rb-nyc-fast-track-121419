@@ -27,7 +27,6 @@ WIN_COMBINATIONS = [
 end
 
 
-
 def full?(board_array)
   board_array.each do |numbers|
     if numbers == " "
@@ -35,3 +34,11 @@ def full?(board_array)
     end
   
 end 
+
+def draw?(board_array)
+  if full?(board_array) && !won?(board_array)
+   return true 
+ else 
+   return false
+  end
+end
