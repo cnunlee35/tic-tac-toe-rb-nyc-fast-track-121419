@@ -25,3 +25,5 @@ WIN_COMBINATIONS = [
     end
     return false 
 end
+
+puts won?("X", " ", " ", "X", " ", " ", "X", " ", " ")
