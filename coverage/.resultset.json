@@ -2,32 +2,9 @@
   "RSpec": {
     "coverage": {
       "/home/celebrated-ninja-3247/tic-tac-toe-rb-nyc-fast-track-121419/lib/tic_tac_toe.rb": [
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        2,
-        16,
-        16,
-        16,
-        null,
-        16,
-        16,
-        16,
-        16,
-        null,
-        null,
-        null
+
       ]
     },
-    "timestamp": 1576437435
+    "timestamp": 1576437867
   }
 }
