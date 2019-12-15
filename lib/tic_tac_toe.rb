@@ -8,7 +8,6 @@ WIN_COMBINATIONS = [
   [1,4,7],
   [2,5,8]
   ]
- def 
   
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def won?(board_array)
