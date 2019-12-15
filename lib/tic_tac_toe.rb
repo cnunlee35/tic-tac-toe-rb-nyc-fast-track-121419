@@ -59,4 +59,3 @@ def winner(board)
     index = array_winner[0]
     return board[index]
   end 
- end 
