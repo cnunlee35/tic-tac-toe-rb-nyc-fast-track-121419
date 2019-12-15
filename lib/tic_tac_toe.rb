@@ -10,6 +10,7 @@ WIN_COMBINATIONS = [
   ]
  def 
   puts "Welcome to Tic Tac Toe!"
+  
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def won?(board_array)
     WIN_COMBINATIONS.each do |combo_arr|
